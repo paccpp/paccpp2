@@ -62,7 +62,7 @@ str1 + str2 : HelloWorld
 str3.size() :  10
 ```
 
-### Pointeurs
+## Pointeurs
 
 Les **pointeurs** ne sont pas faciles à appréhender, néanmoins certaines opérations sont plus facilement réalisables grâce à eux et certaines nécéssitent leur emploi comme pour l'allocation dynamique de mémoire.
 

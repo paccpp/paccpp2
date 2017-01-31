@@ -11,6 +11,11 @@
 
 ## Variables et types
 
+- [Types de données primitifs](data_types_pointers_references.md#types-de-données-primitifs)
+- [Type string](data_types_pointers_references.md#type-string)
+- [Pointeurs](data_types_pointers_references.md#pointeurs)
+- [Référence](data_types_pointers_references.md#références)
+
 ## Fonctions
 
 - [Généralités](functions.md#généralités-sur-les-fonctions)
@@ -18,7 +23,7 @@
   - [Par valeur](functions.md#passage-darguments-par-valeur)
   - [Par référence](functions.md#passage-darguments-par-référence)
   - [Par pointeur](functions.md#passage-darguments-par-pointeur)
-  - [Passage d'arguments constants](functions.md#passage-darguments-par-constants)
+  - [Passage d'arguments constants](functions.md#passage-darguments-constants)
 - [Valeurs par défaut](functions.md#valeurs-par-défaut)
 - [Surcharge de fonctions](functions.md#surcharge-de-fonctions)
 - [function template](functions.md#function-template)
