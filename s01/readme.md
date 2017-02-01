@@ -2,6 +2,8 @@
 
 <p><sup><a href="../s02">suivante</a></sup></p>
 
+Introduction au langage C++
+
 ## Helloworld
 
 - [Helloworld](helloworld_cpp.md#helloworld)
