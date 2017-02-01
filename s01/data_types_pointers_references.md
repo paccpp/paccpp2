@@ -129,8 +129,8 @@ int main()
 
 3 différences majeures distinguent les **références** des **pointeurs** :
 
-- **Les références ne peuvent jamais être nulles**. On considère qu'une référence est toujours liée à une zone de mémoire valide.
+- **Les références ne peuvent jamais être nulles**. On considère qu'une référence est toujours liée à une zone de mémoire valide, une variable en vie.
 
-- **Les références sont toujours constantes**. Une fois qu'elle a été liée à une variable, une référence ne peut pas être changer pour se référer à un autre variable. (les pointeurs peuvent quant à eux être réinitialisés à n'importe quel moment pour pointer sur une autre variable).
+- **Les références sont toujours constantes**. Une fois qu'elle a été liée à une variable, une référence ne peut pas être changée pour se référer à un autre variable. (les pointeurs peuvent quant à eux être réinitialisés à n'importe quel moment pour pointer sur une autre variable).
 
 - **Une référence doit être initialisée à la création**. (les pointeurs peuvent être initialisés ou réassignés à n'importe quel moment).
