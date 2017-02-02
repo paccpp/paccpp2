@@ -2,7 +2,7 @@
 
 <p><sup><a href="../s02">suivante</a></sup></p>
 
-Introduction au langage C++
+Introduction au langage C++ (01)
 
 ## Helloworld
 
@@ -26,6 +26,3 @@ Introduction au langage C++
   - [Par référence](functions.md#passage-darguments-par-référence)
   - [Par pointeur](functions.md#passage-darguments-par-pointeur)
   - [Passage d'arguments constants](functions.md#passage-darguments-constants)
-- [Valeurs par défaut](functions.md#valeurs-par-défaut)
-- [Surcharge de fonctions](functions.md#surcharge-de-fonctions)
-- [function template](functions.md#function-template)
