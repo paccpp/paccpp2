@@ -1,6 +1,6 @@
 <p><sup><a href="readme.md">retour</a></sup></p>
 
-# fonctions (02) => ([01](../s01/functions))
+# fonctions (suite) => ([01](../s01/functions))
 
 ## Valeurs par défaut
 
