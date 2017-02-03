@@ -9,3 +9,5 @@ Introduction au langage C++ (02)
 - [Valeurs par défaut](functions.md#valeurs-par-défaut)
 - [Surcharge de fonctions](functions.md#surcharge-de-fonctions)
 - [function template](functions.md#function-template)
+
+=> [exercices sur les fonctions](exercices/01.md)
