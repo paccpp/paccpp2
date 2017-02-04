@@ -10,7 +10,7 @@ Introduction au langage C++ (02)
 - [Surcharge de fonctions](functions.md#surcharge-de-fonctions)
 - [function template](functions.md#function-template)
 
-=> [exercices sur les fonctions](exercices/01.md)
+:pencil2: [exercices sur les fonctions](exercices/functions.md)
 
 ## Containers
 
@@ -18,3 +18,5 @@ Introduction au langage C++ (02)
 - [std::array](containers.md#stdarray)
 - [std::vector](containers.md#stdvector)
 - [iterators](containers.md#iterateurs)
+
+:pencil2: [exercices sur les conteneurs](exercices/containers.md)
