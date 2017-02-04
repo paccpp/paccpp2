@@ -76,11 +76,11 @@ int main()
 
 ### std::vector
 
-Le `std::vector` (tout comme le `std::array`) est classé dans la catégorie des *conteneurs séquentiels*, il sert à stocker un nombre d'élément variable en mémoire.  
+Le `std::vector` (tout comme le `std::array`) est classé dans la catégorie des *conteneurs séquentiels*, il sert à stocker un nombre d'éléments variable en mémoire.  
 Le `std::vector` fourni une interface qui **encapsule** un tableau de taille dynamique, elle permet d'ajouter ou supprimer des éléments, d'itérer sur les valeurs contenues de manière séquentielle, d'effectuer des opérations dessus...
 
 Un `std::vector` prend un seul paramètre obligatoire en template: le type de donnée à stocker :  
-=> déclaration d'un vecteur de 5 entiers : `std::vector<int> vec;`.
+=> déclaration d'un vecteur d'entiers : `std::vector<int> vec;`.
 
 Utilisation du `std::vector` :
 
@@ -136,7 +136,7 @@ std::vector<int>::iterator begin_it = vec.begin();  // renvoie un itérateur sur
 std::vector<int>::iterator end_it = vec.end();      // renvoie un itérateur sur le dernier élément du vecteur
 ```
 
-Les **iterateurs** sont des types qui se comportent comme des **pointeurs**, on peut donc par exemple s'en servir pour itérer sur un conteneur ou obtenir la valeur à laquelle il fait référence.
+Les **iterateurs** sont des objets qui se comportent comme des **pointeurs**, ils ont la même arithmétique, on peut donc par exemple s'en servir pour itérer sur un conteneur ou obtenir la valeur à laquelle il fait référence, on déréférence un iterateur comme un pointeur pour accéder à la variable pointée.
 
 ```cpp
 std::vector<int> vec {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
