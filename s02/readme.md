@@ -15,6 +15,6 @@ Introduction au langage C++ (02)
 ## Containers
 
 - [intro](containers.md#containers)
-- [std::array](containers.md#std::array)
-- [std::vector](containers.md#std::vector)
+- [std::array](containers.md#stdarray)
+- [std::vector](containers.md#stdvector)
 - [iterators](containers.md#iterateurs)
