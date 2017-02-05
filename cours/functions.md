@@ -1,6 +1,6 @@
 <p><sup><a href="readme.md">retour</a></sup></p>
 
-# fonctions (01) => ([02](../s02/functions.md))
+# fonctions
 
 ## Généralités sur les fonctions
 

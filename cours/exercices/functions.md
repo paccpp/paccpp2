@@ -1,10 +1,6 @@
 <p><sup><a href="../readme.md">retour</a></sup></p>
 
-# Séance 02
-
-Exercices sur les fonctions :
-
-=> [fonctions 01](../functions_01.md) | [fonctions 02](../functions_02.md)
+# Exercices sur les [fonctions](../functions.md) :
 
 ## exercice 01
 
