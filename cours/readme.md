@@ -43,3 +43,4 @@
 - [Classes et Objets](POO_classes_and_objects.md)
 - [Constructeur(s) et Destructeur](POO_object_construction_and_destruction.md)
 - [Durée de vie d'un objet](POO_object_lifetime.md)
+- [Héritage](POO_inheritance.md)
