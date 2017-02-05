@@ -139,7 +139,7 @@ int main()
 ```
 
 Les mots-clefs `public` et `private` servent donc à définir ce qui va pouvoir être accéssible ou non depuis l'extérieur de la classe, c'est la base du concept d'[abstraction](POO_concepts.md#abstraction) en POO.
-Le mot-clef `protected` sert quant à lui à rendre accéssible des variables ou fonctions membres uniquement au sous-classes (classes qui héritent d'une classe de base) mais pas à l'extérieur de la classe.
+Le mot-clef `protected` sert quant à lui à rendre accéssibles des variables ou fonctions membres uniquement au sous-classes (classes qui héritent d'une classe de base) mais pas à l'extérieur de la classe.
 
 
 ## Définition des fonctions membres à l'exterieur de la classe

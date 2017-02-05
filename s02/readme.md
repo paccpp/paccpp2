@@ -25,3 +25,4 @@ Introduction au langage C++ (02)
 
 - [concepts](POO_concepts.md)
 - [Classes et Objets](POO_classes_and_objects.md)
+- [Constructeur et Destructeur](POO_object_construction_and_destruction.md)
