@@ -4,6 +4,8 @@
 
 Exercices sur les fonctions :
 
+=> [fonctions 01](../functions_01.md) | [fonctions 02](../functions_02.md)
+
 ## exercice 01
 
 Écrire une seule fonction générique nommée `swap` qui aura pour rôle d'échanger

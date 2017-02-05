@@ -6,23 +6,23 @@ Introduction au langage C++ (02)
 
 ## Fonctions (suite)
 
-- [Valeurs par défaut](functions.md#valeurs-par-défaut)
-- [Surcharge de fonctions](functions.md#surcharge-de-fonctions)
-- [function template](functions.md#function-template)
+- [Valeurs par défaut](../cours/functions.md#valeurs-par-défaut)
+- [Surcharge de fonctions](../cours/functions.md#surcharge-de-fonctions)
+- [function template](../cours/functions.md#function-template)
 
-:pencil2: [exercices sur les fonctions](exercices/functions.md)
+:pencil2: [exercices sur les fonctions](../cours/exercices/functions.md)
 
 ## Containers
 
-- [intro](containers.md#containers)
-- [std::array](containers.md#stdarray)
-- [std::vector](containers.md#stdvector)
-- [iterators](containers.md#iterateurs)
+- [Intro](../cours/containers.md#containers)
+- [std::array](../cours/containers.md#stdarray)
+- [std::vector](../cours/containers.md#stdvector)
+- [iterators](../cours/containers.md#iterateurs)
 
-:pencil2: [exercices sur les conteneurs](exercices/containers.md)
+:pencil2: [exercices sur les conteneurs](../cours/exercices/containers.md)
 
 ## Introduction à la POO
 
-- [concepts](POO_concepts.md)
-- [Classes et Objets](POO_classes_and_objects.md)
-- [Constructeur et Destructeur](POO_object_construction_and_destruction.md)
+- [Concepts](../cours/POO_concepts.md)
+- [Classes et Objets](../cours/POO_classes_and_objects.md)
+- [Constructeur(s) et Destructeur](../cours/POO_object_construction_and_destruction.md)
