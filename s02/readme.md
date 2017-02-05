@@ -24,3 +24,4 @@ Introduction au langage C++ (02)
 ## Introduction à la POO
 
 - [concepts](POO_concepts.md)
+- [Classes et Objets](POO_classes_and_objects.md)
