@@ -1,8 +1,4 @@
-# Séance 01
-
-<p><sup><a href="../s02">suivante</a></sup></p>
-
-Introduction au langage C++ (01)
+# Introduction au langage C++
 
 ## Helloworld
 
