@@ -35,7 +35,7 @@ Le polymorphisme ad-hoc est aussi nommé [surcharge](#surcharge).
 
 #### Polymorphisme paramétrique
 
-C'est quand un code une partie de code est écrit sans spécifier de type particulier et qui peut donc être utilisé avec différents types. c'est la base de la programmation générique et de la programmation avec des templates.
+C'est quand un code une partie de code est écrit sans spécifier de type particulier et qui peut donc être utilisé avec différents types. c'est la base de la **programmation générique** et de la programmation avec des templates.
 
 ```cpp
 template<class T>
@@ -51,7 +51,7 @@ float f = add(1.5f, 3.7f);
 
 #### Polymorphisme par sous-typage
 
-Aussi nommé **polymorphisme par héritage**, est la possibilité d'appeler la méthode d'un objet sans se soucier de son type intrinsèque. Quand une classe hérite d'une autre elle peut spécialiser une méthode en la redéfinissant de manière à ce que l'on puisse manipuler avec la même interface plusieurs objets d'une classe de base faisant référence chacune à des objets de classes dérivées différentes.
+Aussi nommé **polymorphisme par héritage**, est la possibilité d'appeler la méthode d'un objet sans se soucier de son type intrinsèque. Quand une classe hérite d'une autre elle peut spécialiser une méthode en la redéfinissant de manière à ce que l'on puisse manipuler avec la même interface plusieurs objets d'une classe de base faisant référence à des objets de classes concrètes ou dérivées différentes.
 
 ```cpp
 #include <iostream>
@@ -60,6 +60,7 @@ class Processor
 {
 public:
 
+    // destructeur virtuel
     virtual ~Processor() = default;
 
     // méthode process déclaré virtuelle pour pouvoir la spécialiser.
@@ -69,6 +70,7 @@ public:
     }
 };
 
+// La classe Flanger hérite de la class Processor
 class Flanger : public Processor
 {
 public:
@@ -90,6 +92,7 @@ public:
     }
 };
 
+// appel de la fonction process par passage par référence de la classe de base
 void process(Processor& proc)
 {
     proc.process();
@@ -102,10 +105,9 @@ int main()
     Flanger flanger;
     Phasor phasor;
 
-    // appel de la fonction process sur la classe de base
-    process(processor);
-    process(flanger);
-    process(phasor);
+    process(processor); // Processor: default process !
+    process(flanger);   // Flanger: yeeeaah !
+    process(phasor);    // Phasor: bzzzzzz !
 
     return 0;
 }
