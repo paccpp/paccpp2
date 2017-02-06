@@ -186,13 +186,13 @@ private:
 // Définition du constructeur et initialisation de la variable volume
 Clip::Clip(double volume) : m_volume(volume)
 {
-    std::cout << "copied volume = " << m_volume << std::endl;
+    std::cout << "m_volume = " << m_volume << std::endl;
 }
 
 // Définition du constructeur par copie
 Clip::Clip(Clip const& other) : m_volume(other.m_volume)
 {
-    std::cout << "m_volume = " << m_volume << std::endl;
+    std::cout << "copied volume = " << m_volume << std::endl;
 }
 
 int main()
