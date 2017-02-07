@@ -244,3 +244,7 @@ int main()
     return 0;
 }
 ```
+
+## Encapsulation getter/setter
+
+> [...]

@@ -25,6 +25,8 @@ L'encapsulation est le fait de regrouper les données et les fonctions qui opèr
 L'héritage permet la création d'une nouvelle classe en héritant d'une ou plusieurs autres classes, on appelle **classe dérivée** ou **classe enfant** la nouvelle classe et **classe de base** ou **classe mère** la classe dont la nouvelle classe hérite.
 L'héritage permet de réutiliser du code en faisant hériter la nouvelle classe des propriétés et méthodes de la classe de base.
 
+=> [en savoir plus](POO_inheritance.md).
+
 ### Polymorphisme
 
 On appelle polymorphisme le fait de fournir une même interface pour des entités de types différents, la possibilité d'utiliser un opérateur ou une fonction différement suivant le contexte ou le type données sur lesquels ils opèrent.
@@ -112,7 +114,6 @@ int main()
     return 0;
 }
 ```
-
 
 ### Surcharge
 

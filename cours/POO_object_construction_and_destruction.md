@@ -2,7 +2,7 @@
 
 # Constructeur(s) et destructeur
 
-Le **constructeur** et le **destructeur** d'une classe (ou d'une structure) sont des fonctions **membres** particulières qui sont appelées respectivement à la constructionet à la destruction d'un objet de cette classe.
+Le **constructeur** et le **destructeur** d'une classe (ou d'une structure) sont des fonctions **membres** particulières qui sont appelées respectivement à la construction et à la destruction d'un objet de cette classe.
 Le constructeur et le destructeur d'un objet ne peuvent et ne sont appelés qu'une seule fois chacun au cours de la durée de vie d'un objet.
 
 Le **constructeur** d'une classe est appelée à la construction d'un objet de cette classe, il sert à initialiser un objet de cette classe.  
