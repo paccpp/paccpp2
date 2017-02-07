@@ -183,3 +183,64 @@ int main()
   double volume = fx.getVolume();
 }
 ```
+
+## Variables et fonctions membres statiques
+
+Les variables dîtes statiques sont des variables qui ne dépendent pas d'une instance de classe particulière mais qui sont globales à toutes les instances d'une classe donnée. Une variable statique se déclare en faisant précéder le type de variable du mot-clef `static`, ex `static size_t id;`.
+
+Les fonctions membres statiques peuvent être appelées sans instance d'objet. Une fonction est statique quand elle est précédée du mot-clef `static`, ex `static size_t getId();`.
+
+```cpp
+#include <iostream>
+
+class Clip
+{
+public:
+
+    // Constructeur par defaut
+    Clip()
+    {
+        m_count++;
+    }
+
+    // Destructor
+    ~Clip()
+    {
+        m_count--;
+        std::cout << "clip dtor called" << std::endl;
+        std::cout << m_count << " clip(s) left" << std::endl;
+    }
+
+    // methode statique
+    static size_t getNumberOfInstance()
+    {
+        return m_count;
+    }
+
+    // variable statique
+    static size_t m_count;
+};
+
+// les variables membres statiques doivent être initialisées en dehors de la classe
+size_t Clip::m_count = 0ul;
+
+int main()
+{
+    std::cout << "Number of clip : " << Clip::getNumberOfInstance() << std::endl;
+
+    Clip clip_1;
+    std::cout << "Number of clip : " << Clip::getNumberOfInstance() << std::endl;
+
+    {
+        Clip clip_2;
+        std::cout << "Number of clip : " << Clip::getNumberOfInstance() << std::endl;
+    }
+
+    std::cout << "Number of clip : " << Clip::getNumberOfInstance() << std::endl;
+
+    Clip clip_3;
+    std::cout << "Number of clip : " << Clip::getNumberOfInstance() << std::endl;
+
+    return 0;
+}
+```

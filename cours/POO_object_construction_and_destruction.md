@@ -206,7 +206,3 @@ int main()
     return 0;
 }
 ```
-
-## Variables et fonctions membres statiques
-
-> [...]
