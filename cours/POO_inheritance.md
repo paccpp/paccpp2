@@ -20,7 +20,7 @@ public:
         std::cout << "Effect created" << std::endl;
     };
 
-    bool isMuted() { return m_muted; }
+    bool isMuted() const { return m_muted; }
 
 private:
     bool m_muted;
@@ -49,3 +49,21 @@ int main()
     return 0;
 }
 ```
+
+La classe `Flanger` hérite de la fonctions `getMute()` de la classe `Effect`.
+
+## Spécificateur d'accès
+
+Une classe dérivée peut acceder à toute les variables et fonctions **non-privées** de la classe de base dont elle hérite.
+
+Tableau des droits d'accès aux variables et fonctions membres :
+
+| Accès                  |      `public`      |     `protected`    |      `private`     |
+|------------------------|:------------------:|:------------------:|:------------------:|
+| La même classe         | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Classe dérivée         | :white_check_mark: | :white_check_mark: |     :no_entry:     |
+| Extérieur de la classe | :white_check_mark: |     :no_entry:     |     :no_entry:     |
+
+## Héritage multiple
+
+> [...]
