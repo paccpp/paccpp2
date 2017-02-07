@@ -7,7 +7,7 @@ Quand on crée une classe, à la place de réécrire des variables et fonctions 
 
 L'héritage permet d'exprimer une relation de type "EST UN". Par exemple, on peut dire qu'un *Flanger* EST-UN *Effet*.
 
-Pour exprimer cette relations en C++ on écrira:
+Pour exprimer cette relation en C++ on écrira:
 
 ```cpp
 #include <iostream>
@@ -50,7 +50,7 @@ int main()
 }
 ```
 
-La classe `Flanger` hérite de la fonctions `getMute()` de la classe `Effect`.
+La classe dérivée `Flanger` hérite de la fonction `getMute()` de la classe de base `Effect`.
 
 ## Spécificateur d'accès
 
