@@ -244,4 +244,76 @@ int main()
 
 ## Encapsulation getter/setter
 
-> [...]
+```cpp
+#include <iostream>
+
+class StereoEffect
+{
+public:
+
+    // Constructor
+    StereoEffect(double volume = 1., double panning = 0.5) : m_volume(volume), m_pan(panning)
+    {
+        ;
+    }
+
+    // la fonction modifie la variable m_pan et ne peut donc pas être constante
+    void setPan(const double pan)
+    {
+        // on s'assure que la valeur de panning reste toujours entre 0. et 1.
+        m_pan = (pan < 0.) ? 0. : (pan > 1.) ? 1. : pan;
+    }
+
+    // cette fonction ne modifie aucune variable, elle peut donc être marquée const
+    double getPan() const
+    {
+        return m_pan;
+    }
+
+    // la fonction modifie la variable volume et ne peut donc pas être constante
+    void setVolume(const double volume)
+    {
+        // on s'assure que le volume ne peut pas être négatif.
+        m_volume = (volume > 0.) ? volume : 0.;
+    }
+
+    // Abstraction du calcul du volume gauche dans la fonction
+    double getLeftVolume() const
+    {
+        return m_volume * (1. - m_pan);
+    }
+
+    // Abstraction du calcul du volume gauche dans la fonction
+    double getRightVolume() const
+    {
+        return m_volume * m_pan;
+    }
+
+private:
+
+    double  m_volume;
+    double  m_pan;
+};
+
+int main()
+{
+    StereoEffect fx;
+
+    std::cout << "volume Left = " << fx.getLeftVolume() << std::endl;
+    std::cout << "volume Right = " << fx.getRightVolume() << std::endl;
+
+    std::cout << "set panning to 0.25" << std::endl;
+    fx.setPan(0.25);
+
+    std::cout << "volume Left = " << fx.getLeftVolume() << std::endl;
+    std::cout << "volume Right = " << fx.getRightVolume() << std::endl;
+
+    std::cout << "set volume to 2." << std::endl;
+    fx.setVolume(2.);
+
+    std::cout << "volume Left = " << fx.getLeftVolume() << std::endl;
+    std::cout << "volume Right = " << fx.getRightVolume() << std::endl;
+
+    return 0;
+}
+```
