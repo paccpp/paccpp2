@@ -15,6 +15,7 @@ Vous trouverez ici des liens vers les contenus des dernières séances du cours:
 |-----------|-------------|
 |[01](s01)  | Introduction au langage C++ (01) |
 |[02](s02)  | Introduction au langage C++ (02) |
+|[03](s03)  | Introduction à la POO en C++     |
 
 ### Configurer votre environnement de travail:
 Pour configurer votre environnement de travail afin de pouvoir compiler des programmes en C/C++, rdv au lien suivant:
