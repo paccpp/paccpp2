@@ -20,9 +20,3 @@ Introduction au langage C++ (02)
 - [iterators](../cours/containers.md#iterateurs)
 
 :pencil2: [exercices sur les conteneurs](../cours/exercices/containers.md)
-
-## Introduction à la POO
-
-- [Concepts](../cours/POO_concepts.md)
-- [Classes et Objets](../cours/POO_classes_and_objects.md)
-- [Constructeur(s) et Destructeur](../cours/POO_object_construction_and_destruction.md)
