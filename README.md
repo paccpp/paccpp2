@@ -20,6 +20,10 @@ Vous trouverez ici des liens vers les contenus des dernières séances du cours:
 Pour configurer votre environnement de travail afin de pouvoir compiler des programmes en C/C++, rdv au lien suivant:
 [Configurer son environnement de travail](setup/readme.md).
 
+### Répertoires de travail:
+
+- [StarterKit](https://github.com/paccpp/StarterKit) : Architecture de travail simple permettant de compiler rapidement des programmes en C/C++.
+
 ### Liens utiles:
 
 - [paccpp wiki](https://github.com/paccpp/paccpp/wiki)
