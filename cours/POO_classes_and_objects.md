@@ -151,11 +151,14 @@ class Effect
 {
 public:
 
-  // déclaration de la fonction mute
+  // simple déclaration de la fonction mute
   void mute();
 
-  // déclaration de la fonction getVolume
-  double getVolume();
+  // déclaration ET définition de la fonction getVolume
+  double getVolume()
+  {
+    return m_volume;
+  }
 
 private:
 
@@ -163,17 +166,11 @@ private:
   double  m_volume;
 };
 
-// définition de la fonction mute
+// définition de la fonction mute déclarée dans la classe Effect
 void Effect::mute()
 {
   // la fonction mute fait partie de la classe effect, on a donc accès aux variables privées.
   m_muted = true;
-}
-
-// définition de la fonction getVolume
-double Effect::getVolume()
-{
-  return m_volume;
 }
 
 int main()
