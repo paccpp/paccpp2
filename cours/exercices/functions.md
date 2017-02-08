@@ -13,17 +13,17 @@ int main()
 {
     int i1 = 39;
     int i2 = 20;
-    int ir = swap(i1, i2);
+    swap(i1, i2);
     std::cout << "i1: " << i1 << " et i2: " << i2 << std::endl; // => "i1: 20 et i2: 39"
 
     float f1 = 13.5;
     float f2 = 20.7;
-    float fr = swap(f1, f2);
+    swap(f1, f2);
     std::cout << "f1: " << f1 << " et f2: " << f2 << std::endl; // => "f1: 20.7 et f2: 13.5"
 
     std::string s1 = "Hello";
     std::string s2 = "World";
-    std::string sr = swap(s1, s2);
+    swap(s1, s2);
     std::cout << "s1: " << s1 << " et s2: " << s2 << std::endl; // => "f1: World et s2: Hello"
     return 0;
 }
