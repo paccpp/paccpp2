@@ -249,7 +249,7 @@ int main()
 
 class StereoEffect
 {
-public:
+public: // methods
 
     // Constructor
     StereoEffect(double volume = 1., double panning = 0.5) : m_volume(volume), m_pan(panning)
@@ -270,7 +270,7 @@ public:
         return m_pan;
     }
 
-    // la fonction modifie la variable volume et ne peut donc pas être constante
+    // la fonction modifie la variable m_volume et ne peut donc pas être constante
     void setVolume(const double volume)
     {
         // on s'assure que le volume ne peut pas être négatif.
@@ -283,13 +283,12 @@ public:
         return m_volume * (1. - m_pan);
     }
 
-    // Abstraction du calcul du volume gauche dans la fonction
     double getRightVolume() const
     {
         return m_volume * m_pan;
     }
 
-private:
+private: // variables
 
     double  m_volume;
     double  m_pan;
