@@ -8,9 +8,13 @@ Le concept de base de la programmation orientée objet est de créer des **objet
 
 Un **objet** possède une structure interne et un comportement, c'est l'unité de base de la POO qui embarque à la fois des données et des fonctions qui opèrent sur ces données. Un **objet** est l'**instance** d'une **classe**.
 
+=> [en savoir plus](POO_classes_and_objects.md).
+
 ### Classe
 
 Une classe défini le *moule* d'un objet, son nom, ce qu'un objet de cette classe va faire, les données qu'il va stocker et les opérations qui vont être permises sur cet objet.
+
+=> [en savoir plus](POO_classes_and_objects.md).
 
 ### Abstraction
 
