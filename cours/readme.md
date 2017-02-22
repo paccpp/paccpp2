@@ -35,8 +35,6 @@
 - [std::vector](containers.md#stdvector)
 - [iterators](containers.md#iterateurs)
 
-:pencil2: [exercices sur les conteneurs](exercices/containers.md)
-
 ## Introduction à la POO
 
 - [Concepts](POO_concepts.md)

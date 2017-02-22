@@ -18,5 +18,3 @@ Introduction au langage C++ (02)
 - [std::array](../cours/containers.md#stdarray)
 - [std::vector](../cours/containers.md#stdvector)
 - [iterators](../cours/containers.md#iterateurs)
-
-:pencil2: [exercices sur les conteneurs](../cours/exercices/containers.md)
