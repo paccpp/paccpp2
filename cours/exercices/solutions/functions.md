@@ -1,14 +1,20 @@
-<p><sup><a href="../readme.md">retour</a></sup></p>
+<p><sup><a href="../functions.md">exercices</a></sup></p>
 
-# Exercices sur les [fonctions](../functions.md) :
+# Solution des exercices sur les [fonctions](../functions.md) :
 
 ## exercice 01
 
-Écrire une seule fonction générique nommée `swap` qui aura pour rôle d'échanger
-la valeur des deux arguments passés à la fonction.
-Le code suivant devra compiler et s'executer correctement :
-
 ```cpp
+#include <iostream>
+
+template <typename T>
+void swap(T& a, T& b)
+{
+    T temp = a;
+    a = b;
+    b = temp;
+}
+
 int main()
 {
     int i1 = 39;
@@ -29,15 +35,17 @@ int main()
 }
 ```
 
-:eyes: => [solution](solutions/functions.md#exercice-01)
-
 ## exercice 02
 
-Écrire une seule fonction générique nommée `clip` qui prendra comme premier paramètre la valeur à clipper,
-cette fonction comportera deux autres paramètres, optionnels, pour définir la valeur minimum et maximum du clip respectivement initialisés à -1 et 1 par défaut.
-Le code suivant devra compiler et s'executer correctement :
-
 ```cpp
+#include <iostream>
+
+template <typename T>
+T clip(T value, T min = -1, T max = 1)
+{
+    return (value < min) ? min : (value > max) ? max : value;
+}
+
 int main()
 {
     std::cout << "clip(10, 0, 1): " << clip(10, 0, 1) << std::endl; // => "clip(10, 0, 1): 1"
@@ -55,12 +63,10 @@ int main()
 
     // puis décommenter et modifier les appels aux fonctions suivantes afin que le code compile:
 
-    //int   i_result = clip(2.8f, low, high);
-    //std::cout << "i_result: " << i_result << std::endl; // => "i_result: 2"
+    int   i_result = clip<int>(2.8f, low, high);
+    std::cout << "i_result: " << i_result << std::endl; // => "i_result: 2"
 
-    //float f_result = clip(2.8f, low, high);
-    //std::cout << "f_result: " << f_result << std::endl; // => "f_result: 2.8"
+    float f_result = clip<float>(2.8f, low, high);
+    std::cout << "f_result: " << f_result << std::endl; // => "f_result: 2.8"
 }
 ```
-
-:eyes: => [solution](solutions/functions.md#exercice-02)
