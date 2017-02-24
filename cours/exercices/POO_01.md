@@ -1,6 +1,6 @@
 <p><sup><a href="../readme.md">retour</a></sup></p>
 
-# Exercices sur la [POO](../concepts.md) :
+# Exercices sur la [POO](../POO_concepts.md) :
 
 ## exercice 01
 
