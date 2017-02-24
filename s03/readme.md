@@ -15,3 +15,5 @@ Introduction à la POO en C++ (01)
   - [Définition des fonctions membres](../cours/POO_classes_and_objects.md#définition-des-fonctions-membres-à-lexterieur-de-la-classe)
   - [Encapsulation getters/setters](../cours/POO_classes_and_objects.md#encapsulation-gettersetter)
 - [Constructeur(s) et Destructeur](../cours/POO_object_construction_and_destruction.md#constructeurs-et-destructeur)
+
+:pencil2: [exercices](../cours/exercices/POO_01.md)
