@@ -1,21 +1,66 @@
-<p><sup><a href="../readme.md">retour</a></sup></p>
+<p><sup><a href="../P00_01.md">retour</a></sup></p>
 
-# Exercices sur la [POO](../POO_concepts.md) :
+# Solution des exercices sur la [POO](../POO_01.md) :
 
 ## exercice 01
-
-Écrire une classe `GainEffect` avec les bonnes variables et fonctions membres, qui permette de faire compiler le code suivant et faire sortir les bonnes valeurs en console.
 
 ```cpp
 #include <iostream>
 #include <string>
 
 //----
+#include <iostream>
+#include <string>
+#include <vector>
+
 class GainEffect
 {
-    // [...]
+public:
+
+    GainEffect() : m_name() {}
+    ~GainEffect() = default;
+
+    void setName(std::string const& name)
+    {
+        m_name = name;
+    }
+
+    std::string getName() const
+    {
+        return m_name;
+    }
+
+    void unmute()
+    {
+        m_muted = false;
+    }
+
+    void mute()
+    {
+        m_muted = true;
+    }
+
+    bool muted() const
+    {
+        return m_muted;
+    }
+
+    void setVolume(double volume)
+    {
+        m_volume = (volume < 0.) ? 0. : volume;
+    }
+
+    double getVolume()
+    {
+        return m_volume;
+    }
+
+private:
+
+    std::string m_name {};
+    bool        m_muted = false;
+    double      m_volume = 0.;
 };
-//----
 
 int main()
 {
@@ -41,37 +86,83 @@ int main()
     fx.setName(name);
     std::cout << "fx name : " << fx.getName() << std::endl;
     // fx name : gain
+
+    return 0;
 }
 ```
 
-:eyes: => [solution](solutions/POO_01.md#exercice-01)
-
 ## exercice 02
-
-Le code suivant se sert de la classe `GainEffect` créée à l'[exercice 01](#exercice-01).  
-Vous devrez cette fois-ci rajouter à cette classe une fonction membre nommée `process` qui devra multiplier chaque sample d'un vecteur donné en entrée par le volume courant, seulement si l'effet n'est pas muté.  
-Le code suivant devra compiler et donner les bons résultats en sortie.
-
-> Note: vous pouvez relire la partie sur les [containers](../containers.md) pour savoir comment manipuler un `std::vector`
 
 ```cpp
 #include <iostream>
 #include <string>
 #include <vector>
 
-//----
 class GainEffect
 {
-    // [...]
+public:
+
+    GainEffect() : m_name() {}
+    ~GainEffect() = default;
+
+    void setName(std::string const& name)
+    {
+        m_name = name;
+    }
+
+    std::string getName() const
+    {
+        return m_name;
+    }
+
+    void unmute()
+    {
+        m_muted = false;
+    }
+
+    void mute()
+    {
+        m_muted = true;
+    }
+
+    bool muted() const
+    {
+        return m_muted;
+    }
+
+    void setVolume(double volume)
+    {
+        m_volume = (volume < 0.) ? 0. : volume;
+    }
+
+    double getVolume()
+    {
+        return m_volume;
+    }
+
+    void process(std::vector<double>& samples)
+    {
+        if(!muted())
+        {
+            for(auto& sample : samples)
+            {
+                sample *= m_volume;
+            }
+        }
+    }
+
+private:
+
+    std::string m_name {};
+    bool        m_muted = false;
+    double      m_volume = 0.;
 };
-//----
 
 int main()
 {
     GainEffect fx;
     fx.setVolume(0.5);
 
-    // initialisation d'un vecteur de samples à traiter :
     std::vector<double> buffer {0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.};
 
     // Print buffer
@@ -100,5 +191,3 @@ int main()
     return 0;
 }
 ```
-
-:eyes: => [solution](solutions/POO_01.md#exercice-02)
