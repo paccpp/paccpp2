@@ -13,7 +13,7 @@ La classe `Phasor` devra avoir :
  - Une méthode publique pour demander la phase courante nommée `getPhase`.
  - Une méthode publique pour changer la fréquence du Phasor et une autre pour demander la fréquence courante nommées respectivement `setFrequency` et `getFrequency`.
  - Une méthode privée qui permette de calculer l'incrément de phase nommée `computeIncrement`.
- - Une méthode publique nommée `process` qui incrémente la phase du phasor et renvoit un double correspondant à la phase courante du Phasor.
+ - Une méthode publique nommée `process` qui incrémente la phase du phasor et renvoit un `double` correspondant à la phase courante du Phasor.
 
 Dans un second temps vous [surchargerez le constructeur](../POO_object_construction_and_destruction.md#surcharge-de-constructeur) de la classe `Phasor` en ajoutant un [constructeur par copie](../POO_object_construction_and_destruction.md#constructeur-par-copie) afin que l'on puisse construire un objet phasor avec un autre objet phasor (le nouvel objet phasor devra avoir la même phase, la même frequence et le même *sampling rate* que le phasor avec lequel il a été construit).
 

@@ -26,8 +26,6 @@
 - [Surcharge de fonctions](functions.md#surcharge-de-fonctions)
 - [function template](functions.md#function-template)
 
-:pencil2: [exercices sur les fonctions](exercices/functions.md)
-
 ## Containers
 
 - [Intro](containers.md#containers)
@@ -59,5 +57,8 @@
   - [Fonctions virtuelles pures](POO_polymorphism.md#fonction-virtuelles-pures)
 - [Durée de vie d'un objet](POO_object_lifetime.md)
 
-:pencil2: [exercices sur la POO - 01](exercices/POO_01.md)
-:pencil2: [exercices sur la POO - 02](exercices/POO_02.md)
+## Exercices
+
+:pencil2: [exercices sur les fonctions](exercices/functions.md)  
+:pencil2: [exercices sur la POO - 01](exercices/POO_01.md)  
+:pencil2: [exercices sur la POO - 02](exercices/POO_02.md)  
