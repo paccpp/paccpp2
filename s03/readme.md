@@ -16,4 +16,4 @@ Introduction à la POO en C++ (01)
   - [Encapsulation getters/setters](../cours/POO_classes_and_objects.md#encapsulation-gettersetter)
 - [Constructeur(s) et Destructeur](../cours/POO_object_construction_and_destruction.md#constructeurs-et-destructeur)
 
-:pencil2: [exercices](../cours/exercices/POO_01.md)
+:pencil2: [exercices sur la POO - 01](../cours/exercices/POO_01.md)
