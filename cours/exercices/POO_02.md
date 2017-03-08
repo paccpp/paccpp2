@@ -97,3 +97,5 @@ int main()
     return 0;
 }
 ```
+
+:eyes: => [solution](solutions/POO_02.md#exercice-01)

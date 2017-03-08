@@ -7,10 +7,6 @@
 ```cpp
 #include <iostream>
 #include <string>
-
-//----
-#include <iostream>
-#include <string>
 #include <vector>
 
 class GainEffect
