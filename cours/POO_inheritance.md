@@ -66,4 +66,74 @@ Tableau des droits d'accès aux variables et fonctions membres :
 
 ## Héritage multiple
 
-> [...]
+Une classe peut hériter de plusieurs classes de bases, c'est ce que l'on appelle l'héritage multiple.  
+La classe dérivée hérite alors des méthodes et variables membres de chacune des classes de bases.
+
+> Note: Si une fonction avec la même signature existe dans plusieurs classes de bases, la classe dérivée peut utiliser l'opérateur de portée `::` pour appeler explicitement l'une d'entre elle.
+
+ex:
+
+```cpp
+#include <iostream>
+
+class A
+{
+public:
+    A() {}
+
+    void foo()
+    {
+        std::cout << "foo !" << std::endl;
+    }
+
+    void sayHello()
+    {
+        std::cout << "Hello, i'm the A class !" << std::endl;
+    }
+};
+
+class B
+{
+public:
+
+    B() {}
+
+    void bar()
+    {
+        std::cout << "bar !" << std::endl;
+    }
+
+    void sayHello()
+    {
+        std::cout << "Hello, i'm the B class !" << std::endl;
+    }
+};
+
+// La classe C hérite de la classe A et de la classe B
+class C : public A, public B
+{
+public:
+
+    void sayHello()
+    {
+        // appel de la fonction sayHello de la classe de base A
+        // grâce à l'opérateur de portée ::
+        A::sayHello();
+
+        // appel de la fonction sayHello de la classe de base B
+        B::sayHello();
+
+        std::cout << "Hello, i'm the C class !" << std::endl;
+    }
+};
+
+int main()
+{
+    C c;
+    c.foo();
+    c.bar();
+    c.sayHello();
+
+    return 0;
+}
+```
