@@ -13,3 +13,5 @@ Introduction à la POO en C++ (03)
 - [Polymorphisme](../cours/POO_polymorphism.md#Polymorphisme)
   - [Fonctions virtuelles](../cours/POO_polymorphism.md#fonction-virtuelles)
   - [Fonctions virtuelles pures](../cours/POO_polymorphism.md#fonction-virtuelles-pures)
+
+:pencil2: [exercices sur la POO - 02](../cours/exercices/POO_02.md)
