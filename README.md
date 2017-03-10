@@ -11,13 +11,14 @@ Ce répertoire sera régulièrement mis à jour durant le semestre.
 
 Vous trouverez ici des liens vers les contenus des dernières séances du cours:
 
-| Séances   | déscription |
-|-----------|-------------|
-|[01](s01)  | Introduction au langage C++ (01) |
-|[02](s02)  | Introduction au langage C++ (02) |
-|[03](s03)  | Introduction à la POO en C++ (01)|
-|[04](s04)  | Introduction à la POO en C++ (02)|
-|[05](s05)  | Introduction à la POO en C++ (03)|
+| Séances   | déscription                           |
+|-----------|---------------------------------------|
+|[01](s01)  | Introduction au langage C++ (01)      |
+|[02](s02)  | Introduction au langage C++ (02)      |
+|[03](s03)  | Introduction à la POO en C++ (01)     |
+|[04](s04)  | Introduction à la POO en C++ (02)     |
+|[05](s05)  | Introduction à la POO en C++ (03)     |
+|[06](s06)  | Programmation d'objets Max/Pd en C++  |
 
 ### Configurer votre environnement de travail:
 Pour configurer votre environnement de travail afin de pouvoir compiler des programmes en C/C++, rdv au lien suivant:
