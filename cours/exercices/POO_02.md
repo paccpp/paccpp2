@@ -2,7 +2,7 @@
 
 # Exercices sur la [POO](../POO_concepts.md) :
 
-## exercice 01
+## Exercice 01
 
 Compléter le code suivant afin qu'il compile correctement et que les instructions de la fonction `main` produisent les bons résultats en sortie.  
 
@@ -98,9 +98,12 @@ int main()
 }
 ```
 
+---
 :eyes: => [solution](solutions/POO_02.md#exercice-01)
 
-## exercice 02
+---
+
+## Exercice 02
 
 Dans ce second exercice on va utiliser le concept de [polymorphisme](../POO_polymorphism.md) pour mettre à jour et adapter nos classes `Processor` et `Phasor` écrites lors de l'[exercice 01](#exercice-01).  
 La classe `Processor` permet de changer la fréquence d'échantillonnage. La classe `Phasor` quant à elle dépend de cette fréquence d'échantillonnage pour calculer son incrément de phase, or elle n'est pas en mesure de se mettre automatiquement à jour quand la valeur de la fréquence d'échantillonnage change.
@@ -137,3 +140,7 @@ Pour remédier à cela il vous faudra:
     return 0;
 }
  ```
+
+---
+:eyes: => [solution](solutions/POO_02.md#exercice-02)
+---
