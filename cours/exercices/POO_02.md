@@ -98,6 +98,8 @@ int main()
 }
 ```
 
+:eyes: => [solution](solutions/POO_02.md#exercice-01)
+
 ## exercice 02
 
 Dans ce second exercice on va utiliser le concept de [polymorphisme](../POO_polymorphism.md) pour mettre à jour et adapter nos classes `Processor` et `Phasor` écrites lors de l'[exercice 01](#exercice-01).  
