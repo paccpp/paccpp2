@@ -2,7 +2,7 @@
 
 # Exercices sur la [POO](../POO_concepts.md) :
 
-## exercice
+## exercice 01
 
 Compléter le code suivant afin qu'il compile correctement et que les instructions de la fonction `main` produisent les bons résultats en sortie.  
 
@@ -99,3 +99,41 @@ int main()
 ```
 
 :eyes: => [solution](solutions/POO_02.md#exercice-01)
+
+## exercice 02
+
+Dans ce second exercice on va utiliser le concept de [polymorphisme](../POO_polymorphism.md) pour mettre à jour et adapter nos classes `Processor` et `Phasor` écrites lors de l'[exercice 01](#exercice-01).  
+La classe `Processor` permet de changer la fréquence d'échantillonnage. La classe `Phasor` quant à elle dépend de cette fréquence d'échantillonnage pour calculer son incrément de phase, or elle n'est pas en mesure de se mettre automatiquement à jour quand la valeur de la fréquence d'échantillonnage change.
+
+Pour remédier à cela il vous faudra:
+
+ - Implémenter une **méthode virtuelle** au sein de la classe `Processor` nommée `sampleRateChanged`.
+ - Vous ferez appel à cette méthode au sein de la fonction `setSampleRate` de la classe `Processor`.
+ - Vous devrez ensuite spécialiser la méthode `sampleRateChanged` dans la classe `Phasor` pour mettre à jour la valeur d'incrément de phase.
+ - Profitez-en enfin pour faire en sorte que la méthode `process` devienne une **methode virtuelle pure** de la classe `Processor`.
+
+ Gardez les classes `Processor` et `Phasor` de l'exercice au-dessus, apportez-leurs les modifications nécéssaires, puis remplacez la fonction `main` de l'exercice 01 par la fonction `main` suivante afin de vérifier que vos modifications permettent de faire compiler le programme et d'obtenir les bonnes valeurs à l'exécution:
+
+ ```cpp
+ int main()
+{
+    // create a Phasor object with a default frequency and samplerate
+    Phasor phasor(440., 96000);
+
+    // modify sample rate here :
+    phasor.setSampleRate(44100.);
+
+    // To show that we can call process on the processor base class
+    Processor& processor = phasor;
+
+    for(int i = 0; i < 256; ++i)
+    {
+        processor.process();
+    }
+
+    std::cout << "phasor: " << phasor.getPhase() << std::endl;
+    // print "phasor: 0.554195"
+
+    return 0;
+}
+ ```
