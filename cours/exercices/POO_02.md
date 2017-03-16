@@ -99,6 +99,7 @@ int main()
 ```
 
 ---
+
 :eyes: => [solution](solutions/POO_02.md#exercice-01)
 
 ---
@@ -142,5 +143,5 @@ Pour remédier à cela il vous faudra:
  ```
 
 ---
+
 :eyes: => [solution](solutions/POO_02.md#exercice-02)
----

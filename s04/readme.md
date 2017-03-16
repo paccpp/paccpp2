@@ -20,4 +20,4 @@ Introduction à la POO en C++ (02)
   - [Héritage multiple](../cours/POO_inheritance.md#héritage-multiple)
 
 
-:pencil2: [exercices sur la POO - 02](../cours/exercices/POO_02.md)
+:pencil2: [exercices sur la POO - 02](../cours/exercices/POO_02.md#exercices-sur-la-poo-)
