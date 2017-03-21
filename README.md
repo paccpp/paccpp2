@@ -20,6 +20,10 @@ Vous trouverez ici des liens vers les contenus des dernières séances du cours:
 |[05](s05)  | Introduction à la POO en C++ (03)         |
 |[06](s06)  | Programmation d'objets Max/Pd en C++ (01) |
 |[07](s07)  | Programmation d'objets Max/Pd en C++ (02) |
+|[08](s08)  |                                           |
+|[09](s09)  |                                           |
+|[10](s10)  |                                           |
+|[11](s11)  |                                           |
 
 ### Configurer votre environnement de travail:
 Pour configurer votre environnement de travail afin de pouvoir compiler des programmes en C/C++, rdv au lien suivant:
