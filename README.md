@@ -20,13 +20,13 @@ Vous trouverez ici des liens vers les contenus des dernières séances du cours:
 |[05](s05)  | Introduction à la POO en C++ (03)         |
 |[06](s06)  | Programmation d'objets Max/Pd en C++ (01) |
 |[07](s07)  | Programmation d'objets Max/Pd en C++ (02) |
-|[08](s08)  |                                           |
+|[08](s08)  | - Programmation d'objets Max/Pd en C++ (03) </br>- Découverte d'[OpenFrameworks](http://openframeworks.cc/) (01) |
 |[09](s09)  |                                           |
 |[10](s10)  |                                           |
 |[11](s11)  |                                           |
 
 ### Configurer votre environnement de travail:
-Pour configurer votre environnement de travail afin de pouvoir compiler des programmes en C/C++, rdv au lien suivant:
+Pour configurer votre environnement de travail afin de pouvoir compiler des programmes en `C` / `C++`, rdv au lien suivant:
 [Configurer son environnement de travail](setup/readme.md).
 
 ### Répertoires de travail:
@@ -44,3 +44,5 @@ Pour configurer votre environnement de travail afin de pouvoir compiler des prog
   - http://pdstatic.iem.at/externals-HOWTO/
 - Max :
   - https://cycling74.com/sdk/MaxSDK-7.1.0/html/index.html
+- OpenFrameworks
+  - http://openframeworks.cc/learning/
