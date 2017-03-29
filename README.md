@@ -41,7 +41,7 @@ Pour configurer votre environnement de travail afin de pouvoir compiler des prog
 
 - [MaxObjects](https://github.com/paccpp/MaxObjects) : Objets Max développés dans le cadre de ce cours.
 
-- [OfxApps](https://github.com/paccpp/OfxApps) : Application développées avec OpenFrameworks dans le cadre de ce cours.
+- [OfxApps](https://github.com/paccpp/OfxApps) : Applications développées avec OpenFrameworks dans le cadre de ce cours.
 
 ### Liens utiles:
 
