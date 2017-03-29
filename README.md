@@ -33,6 +33,16 @@ Pour configurer votre environnement de travail afin de pouvoir compiler des prog
 
 - [StarterKit](https://github.com/paccpp/StarterKit) : Architecture de travail simple permettant de compiler rapidement des programmes en C/C++.
 
+- [PdStarterKit](https://github.com/paccpp/PdStarterKit) : Architecture de base pour compiler des externals pour PureData.
+
+- [MaxStarterKit](https://github.com/paccpp/MaxStarterKit) : Architecture de base pour compiler des externals pour Max.
+
+- [PdObjects](https://github.com/paccpp/PdObjects) : Objets PureData développés dans le cadre de ce cours.
+
+- [MaxObjects](https://github.com/paccpp/MaxObjects) : Objets Max développés dans le cadre de ce cours.
+
+- [OfxApps](https://github.com/paccpp/OfxApps) : Application développées avec OpenFrameworks dans le cadre de ce cours.
+
 ### Liens utiles:
 
 - [paccpp wiki](https://github.com/paccpp/paccpp/wiki)
