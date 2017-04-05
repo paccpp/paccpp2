@@ -20,7 +20,7 @@ Vous trouverez ici des liens vers les contenus des dernières séances du cours:
 |[05](s05)  | Introduction à la POO en C++ (03)         |
 |[06](s06)  | Programmation d'objets Max/Pd en C++ (01) |
 |[07](s07)  | Programmation d'objets Max/Pd en C++ (02) |
-|[08](s08)  | - Programmation d'objets Max/Pd en C++ (03) </br>- Découverte d'[OpenFrameworks](http://openframeworks.cc/) (01) |
+|[08](s08)  | Découverte d'[OpenFrameworks](http://openframeworks.cc/) (01) |
 |[09](s09)  |                                           |
 |[10](s10)  |                                           |
 |[11](s11)  |                                           |
