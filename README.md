@@ -20,9 +20,9 @@ Vous trouverez ici des liens vers les contenus des dernières séances du cours:
 |[05](s05)  | Introduction à la POO en C++ (03)         |
 |[06](s06)  | Programmation d'objets Max/Pd en C++ (01) |
 |[07](s07)  | Programmation d'objets Max/Pd en C++ (02) |
-|[08](s08)  | Découverte d'[OpenFrameworks](http://openframeworks.cc/) (01) |
-|[09](s09)  |                                           |
-|[10](s10)  |                                           |
+|[08](s08)  | Découverte d'[OpenFrameworks](http://openframeworks.cc/) |
+|[09](s09)  | Découverte du *framework* [Juce](https://www.juce.com/)  |
+|[10](s10)  | Programmation d'un plugin VST avec Juce   |
 |[11](s11)  |                                           |
 
 ### Configurer votre environnement de travail:
@@ -46,13 +46,17 @@ Pour configurer votre environnement de travail afin de pouvoir compiler des prog
 ### Liens utiles:
 
 - [paccpp wiki](https://github.com/paccpp/paccpp/wiki)
-- Langage C :
+- Langage C:
   - https://www.tutorialspoint.com/cprogramming/
-- Langage C++ :
+- Langage C++:
   - http://www.tutorialspoint.com/cplusplus/
-- PureData :
+- PureData:
   - http://pdstatic.iem.at/externals-HOWTO/
-- Max :
+- Max:
   - https://cycling74.com/sdk/MaxSDK-7.1.0/html/index.html
-- OpenFrameworks
+- OpenFrameworks:
   - http://openframeworks.cc/learning/
+- Juce:
+  - [Tutoriels](https://www.juce.com/tutorials)
+  - [API](https://www.juce.com/doc/classes)
+  - [Forum](https://forum.juce.com/)
