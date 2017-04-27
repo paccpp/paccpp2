@@ -40,6 +40,9 @@ float new_gain_value = 0.6f;
 m_gain.setValue(new_gain_value);
 ```
 
+Dans la méthode `prepareToPlay` il faudra ensuite faire appel à la méthode `reset` de tous les paramètres lissés en spécifiant le vectorsize.
+
+
 Pour chaque nouveau sample, dans la méthode `processBlock` du `PluginProcessor` vous pouvez demander la valeur de gain lissée en écrivant :
 
 ```cpp
