@@ -43,6 +43,8 @@ Pour configurer votre environnement de travail afin de pouvoir compiler des prog
 
 - [OfxApps](https://github.com/paccpp/OfxApps) : Applications développées avec OpenFrameworks dans le cadre de ce cours.
 
+- [JucePlugins](https://github.com/paccpp/JucePlugins) : Plugins développés avec Juce dans le cadre de ce cours.
+
 ### Liens utiles:
 
 - [paccpp wiki](https://github.com/paccpp/paccpp/wiki)
