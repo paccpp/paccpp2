@@ -22,8 +22,8 @@ Vous trouverez ici des liens vers les contenus des dernières séances du cours:
 |[07](s07)  | Programmation d'objets Max/Pd en C++ (02) |
 |[08](s08)  | Découverte d'[OpenFrameworks](http://openframeworks.cc/) |
 |[09](s09)  | Découverte du *framework* [Juce](https://www.juce.com/)  |
-|[10](s10)  | Programmation d'un plugin VST avec Juce   |
-|[11](s11)  |                                           |
+|[10](s10)  | Programmation d'un plugin VST avec Juce (01) |
+|[11](s11)  | Programmation d'un plugin VST avec Juce (02) |
 
 ### Configurer votre environnement de travail:
 Pour configurer votre environnement de travail afin de pouvoir compiler des programmes en `C` / `C++`, rdv au lien suivant:
